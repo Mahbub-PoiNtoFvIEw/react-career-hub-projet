@@ -29,7 +29,7 @@ const Header = () => {
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-4 w-4"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -49,13 +49,15 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl font-bold">CareerHub</a>
+          <a className="btn btn-ghost text-3xl font-bold -ml-5">CareerHub</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <button className="btn bg-blue-500 text-white font-bold md:px-6 px-4 py-1">
+            Start Applying
+          </button>
         </div>
       </div>
     </div>

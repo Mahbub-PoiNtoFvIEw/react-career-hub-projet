@@ -5,7 +5,7 @@ const Banner = () => {
     <div className=" bg-blue-50">
       <div className="flex justify-between items-center gap-4 max-w-6xl p-4 m-auto">
         <div className="space-y-6">
-          <h2 className="text-4xl font-bold">
+          <h2 className="md:text-6xl text-4xl font-bold">
             One Step Closer To Your{" "}
             <span className="text-blue-400">Dream Job</span>
           </h2>
